@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="./images/logo.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kalana De Silva | Portfolio</title>
+
+    <!-- swiper css -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
+    />
+
+    <!-- <box icons -->
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+
+    <!-- custom css -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- smptp email -->
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+  </head>
+  <body>
+    <script src="script.js"></script>
+    <header class="header">
+      <a href="#" class="logo">Portfolio.</a>
+
+      <nav class="navbar">
+        <a href="#home" class="active">Home</a>
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <div class="bx-bx-moon" id="darkMood-icon">
+        <i id="darkMode-icon" class="bx bx-moon"></i>
+      </div>
+      <div class="bx bx-menu" id="menu-icon"></div>
+    </header>
+
+    <!-- home section design -->
+
+    <section class="home" id="home">
+      <div class="home-content">
+        <h3>Hello, I am</h3>
+        <h1>Kalana De Silva</h1>
+        <p>
+          I'm a final year undergraduate and 
+          I have done my internship.
+        </p>
+
+        <div class="social-media">
+          <a href="https://github.com/Kalana98"
+            ><i class="bx bxl-github"></i
+          ></a>
+          <a href="https://x.com/Kalana_098?s=20"
+            ><i class="bx bxl-twitter"></i
+          ></a>
+          <a href="https://instagram.com/kalana__98?igshid=bDQ1a2x6cnUwNDN4"
+            ><i class="bx bxl-instagram-alt"></i
+          ></a>
+          <a href="https://www.linkedin.com/in/kalana-de-silva-20978b290/"
+            ><i class="bx bxl-linkedin"></i
+          ></a>
+          <a href="https://medium.com/@kalanamalshan98"
+          ><i class="bx bxl-medium"></i
+        ></a>
+        ></a>
+        </div>
+
+        <a href="./CV/KalanaCV.pdf" download class="btn">Download CV</a>
+      </div>
+
+      <div class="profession-container">
+        <div class="profession-box">
+          <div class="profession" style="--i: 0">
+            <i class="bx bx-code-alt"></i>
+            <h3>Software Engineer</h3>
+          </div>
+          <div class="profession" style="--i: 1">
+            <i class="bx bx-mobile"></i>
+            <h3>Full Stack Engineer</h3>
+          </div>
+          <!-- <div class="profession" style="--i: 2">
+            <i class="bx bxs-photo-album"></i>
+            <h3>Lightroom</h3>
+          </div> -->
+          <div class="profession" style="--i: 3">
+            <i class="bx bxs-color"></i>
+            <h3>Database System Engineer</h3>
+          </div>
+          <div class="circle"></div>
+        </div>
+        <div class="overlay"></div>
+      </div>
+      <div class="home-img">
+        <img src="images/profile.png" alt="profile" />
+      </div>
+    </section>
+
+    <!-- about section design -->
+    <section class="about" id="about">
+      <!-- <div class="about-img"> -->
+      <img src="images/blue1.png" alt="aboutimage" />
+      <!-- </div> -->
+      <!-- <div class="about-img"><img src="images/about.png" alt="aboutimage"</div> -->
+      <div class="about-content">
+        <h2 class="heading">About <span>Me</span></h2>
+        <p></p>
+        
+          <h3>Hi Welcome to my portfolio!</h3>
+          <p></p>
+
+          I am a dedicated undergraduate student with a passion for technology and a strong commitment to self-improvement. As 
+          a full-stack developer, I thrive on tackling complex challenges and crafting innovative solutions. I take pride in being a self- 
+          learner, constantly expanding my skills and knowledge to stay at the forefront of the ever-evolving tech landscape. I am
+          also a blog writer, where I share my insights, experiences, and tips on various aspects of software development and
+          technology trends. My passion for effective communication complements my technical skills, allowing me to bridge the
+          gap between complex concepts and a broader audience.
+        <p></p>
+        <a href="#" class="btn">Read More</a>
+      </div>
+    </section>
+
+    <!-- eduction part design -->
+    <section class="ediu" id="ediu">
+      <div class="ediu-container">
+        <h2 class="heading">My <span>Education</span></h2>
+
+        <div class="ediu-wrapper">
+          <div class="ediu-box mySwiper">
+            <div class="ediu-content swiper-wrapper">
+              <div class="ediu-slide swiper-slide">
+                <img src="images/icc.png" alt="iccimg" />
+                <h3>Dharmashoka College, Ambalangoda</h3>
+                <p>
+                  Mathematical Stream
+                </p>
+              </div>
+
+              <div class="ediu-slide swiper-slide">
+                <img src="images/sliit.png" alt="iccimg" />
+                <h3>SLIIT | Sri Lanka Institute of Information Technology</h3>
+                <p>
+                  undergraduate student pursuing a BSc in Information Technology
+                  .
+                </p>
+              </div>
+            </div>
+
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-pagination"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- services section design -->
+    <section class="services" id="services">
+      <h2 class="heading">My <span>Services</span></h2>
+
+      <div class="services-container">
+        <div class="services-box">
+          <i class="bx bx-code-alt"></i>
+          <h1>Front End Development</h1>
+        </div>
+
+        <div class="services-box">
+          <i class="bx bx-code-block"></i>
+          <h1>Web Deployment</h1>
+        </div>
+
+        <div class="services-box">
+          <i class="bx bx-mobile"></i>
+          <h1>Back End Development</h1>
+        </div>
+
+        <div class="services-box">
+          <i class="bx bx-edit"></i>
+          <h1>Software Designing</h1>
+        </div>
+      </div>
+    </section>
+
+    <!-- project section desing -->
+    <section class="projects" id="projects">
+      <h2 class="heading">Latest <span>Projects</span></h2>
+      <div class="projects-container">
+        <div class="projects-box">
+          <img src="images/event.png" alt="eventimg" />
+          <div class="projects-layer">
+            <h4>School Management System </h4>
+            <p>
+              This project aims to develop a comprehensive and efficient system for managing various aspects of a school using MERN Stack.
+            </p>
+            <a
+              href="https://github.com/Kalana98/School-Management-System"
+              ><i class="bx bxl-github"></i
+            ></a>
+          </div>
+        </div>
+
+        <div class="projects-box">
+          <img src="images/foodapp.png" alt="foodapp" />
+          <div class="projects-layer">
+            <h4>Gym Management System </h4>
+            <p>
+              A Gym Member Management System using Django.
+            </p>
+            <a href="https://github.com/Keshala09/school-management-system"
+              ><i class="bx bxl-github"></i
+            ></a>
+          </div>
+        </div>
+
+        <div class="projects-box">
+          <img src="images/greencare.png" alt="greencare" />
+          <div class="projects-layer">
+            <h4>E-Votes-Analyzing-with-Intrusion-Detection-System</h4>
+            <p>
+              This is my final year Research Project. We research the state of voting technologies today. Use biometric and blockchain technologies together in electronic voting applications. 
+            </p>
+            <a href="https://github.com/Kalana98/E-Votes-Analysing-with-Intrusion-Detection-System"
+              ><i class="bx bxl-github"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- contact section -->
+
+    <section class="contact" id="contact">
+      <h2 class="heading">Contact <span>Me!</span></h2>
+      <form action="#" class="form-contact">
+        <div class="input-box">
+          <input type="text" id="fname" placeholder="Full Name" />
+          <input type="email" id="email" placeholder="Email Address" />
+          <input type="number" id="number" placeholder="Mobile Number" />
+          <input type="text" id="subject" placeholder="Email Subject" />
+        </div>
+        <textarea
+          name="textarea"
+          id="message"
+          cols="30"
+          rows="10"
+          placeholder="Your Message"
+          class="textarea"
+        ></textarea>
+        <input type="submit" id="submit" value="Send Message" class="btn" />
+      </form>
+    </section>
+
+    <!-- footer section -->
+
+    <footer class="footer">
+      <div class="footer-text">
+        <p>Copyright &copy; 2023 by Kalana De Silva | All Right Reserved</p>
+      </div>
+
+      <div class="footer-iconTop">
+        <a href="#home"><i class="bx bxs-arrow-to-top"></i></a>
+      </div>
+    </footer>
+
+    <!-- scroll reveal -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!-- swipeer js -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+
+    <!-- customer js -->
+    <script src="script.js"></script>
+  </body>
+</html>
