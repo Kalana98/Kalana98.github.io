@@ -12,5 +12,18 @@
 
 ![image](https://github.com/Kalana98/kalana98.github.io/assets/89705243/425691b9-e3df-4360-bcc3-92994ea95f97)
 
+![image](https://github.com/Kalana98/kalana98.github.io/assets/89705243/5bf13255-40b2-4e27-b90c-c78fdd1647c0)
+
+![image](https://github.com/Kalana98/kalana98.github.io/assets/89705243/96edbf5f-0aa3-4526-8e47-06514eae5974)
+
+![image](https://github.com/Kalana98/kalana98.github.io/assets/89705243/ff92d211-9fa0-44af-b46f-9f2e4ab04f49)
+
+![image](https://github.com/Kalana98/kalana98.github.io/assets/89705243/4b6a3538-8f5b-49b3-a6a4-acc6c0644681)
+
+![image](https://github.com/Kalana98/kalana98.github.io/assets/89705243/372ef6e8-f654-41d6-b00f-9b017e6982cd)
+
+
+
+
 
 
